@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Calm Waves</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="custom2.css">
+</head>
+<body>
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left w3-border w3-center" id="mySidebar">
+  <div class="w3-container  w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright w3-large"></i>
+  </div>
+  <div class="w3-container">
+    <img src="img/_icon.png" style="width:100%" alt="Avatar" class="w3-circle w3-margin-bottom w3-image">
+	<p class="w3-wide w3-large"><b>Calm Waves</b></p>
+  </div>
+  <a href="#home" class="w3-bar-item w3-button w3-border-top w3-border-bottom" onclick="w3_close()"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="#video" class="w3-bar-item w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-play-circle w3-margin-right"></i>Video</a>
+  <a href="#photo" class="w3-bar-item w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-photo w3-margin-right"></i>Photo</a>
+  <a href="#buy" class="w3-bar-item w3-button w3-border-bottom" onclick="w3_close()"><i class="fa fa-shopping-cart w3-margin-right"></i>Get it</a>
+</div>
+<!-- Overlay -->
+<div class="w3-overlay" onclick="w3_close()" id="myOverlay"></div>
+<!-- Main -->
+<div class="w3-main" id="main">
+	<!-- Navbar -->
+	<nav class="w3-bar w3-light-blue w3-large w3-top w3-hide-large w3-border">
+	  <a href="#" class="w3-bar-item w3-button w3-hide-large" onclick="w3_open()">&#9776;</a>
+	  <a href="https://www.instagram.com/nature_listener/" target="_blank" class="w3-bar-item w3-button w3-right"><i class="fa fa-instagram" ></i></a>
+	  <a href="https://www.youtube.com/channel/UCaeY1pN-7sIUSjpwr_v_-1w" target="_blank" class="w3-bar-item w3-button w3-right">
+	  <i class="fa fa-youtube-play" ></i></a>
+	</nav>
+	<!-- padding-top -->
+	<div class="w3-hide-large" style="padding-top:50px"></div>
+	<!-- Home -->
+	<div class="w3-container w3-display-container w3-padding-16" id="home">
+		<img src="img/ocean.jpg" style="width:100%" alt="ocean">
+		<div class="w3-display-middle w3-container w3-round">a puzzle game</div>
+	</div>
+	<!-- About -->
+	<div class="w3-panel w3-padding-16">
+		<p>The objective is to fill a 9 × 9 grid with digits so that each column, each row,
+		and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.
+		The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.</p>
+	</div>
+
+	<div class="w3-panel w3-row-padding w3-padding-16">
+		<div class="w3-container w3-half w3-padding" >
+			<p><i class="fa fa-check-square-o w3-margin-right w3-text-green"></i><b>Solve many sudoku puzzles</b></p><br>
+			<p><i class="fa fa-check-square-o w3-margin-right w3-text-green"></i><b>Test your puzzle skills</b></p>
+		</div>
+		<div class="w3-container w3-half w3-padding" >
+			<p><i class="fa fa-check-square-o w3-margin-right w3-text-green"></i><b>Exercise your brain</b></p><br>
+			<p><i class="fa fa-check-square-o w3-margin-right w3-text-green"></i><b>Calm ingame music</b></p>
+		</div>
+	</div>
+	<!-- Video -->
+	<div class="w3-panel w3-padding-16" id="video">
+		<iframe width="100%" height="400" src="https://www.youtube.com/embed/tSpRt4AMzgw"></iframe>
+	</div>
+	
+	<!-- Photo -->
+	<div class="w3-row-padding w3-panel w3-center w3-padding-16" id="photo">
+		<div class="w3-half">
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/1.jpg" style="width:100%" alt="Band Template">
+				<p>Start Scene</p>
+			</div>
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/2.jpg" style="width:100%" alt="Band Template">
+				<p>Difficulties</p>
+			</div>
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/3.jpg" style="width:100%" alt="Band Template">
+				<p>How to Play</p>
+			</div>
+		</div>
+		
+		<div class="w3-half">
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/4.jpg" style="width:100%" alt="Band Template">
+				<p>Day Mode</p>
+			</div>
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/5.jpg" style="width:100%" alt="Band Template">
+				<p>Night Mode</p>
+			</div>
+			<div class="w3-panel w3-padding-16 w3-card-4 w3-round-large template">
+				<img src="img/6.jpg" style="width:100%" alt="Band Template">
+				<p>Save and Continue</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-padding-16 w3-container" id="buy">
+		<img src="img/samsung.png" style="width:100%">
+	</div>
+	<p class="w3-center">Might be Available at</p>
+	<div class="w3-panel w3-padding-16 w3-row-padding" >
+		<div class="w3-half">
+			<img src="img/steam.jpg" style="width:100%">
+		</div>
+		<div class="w3-half">
+			<img src="img/epic.png" style="width:100%">
+		</div>
+	</div>
+	
+	<div class="w3-panel w3-padding-16">
+		<a href="#" target="_blank"><p class="w3-padding-large w3-large w3-center w3-hover-grey w3-border">Get it on Google Play</p></a>
+		<p class="w3-padding-large w3-center w3-light-blue">Contact : faksper@gmail.com</p>
+	</div>
+
+	
+</div>
+
+
+<script src="_script.js"></script>
+
+</body>
+</html>
