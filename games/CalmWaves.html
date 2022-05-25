@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calm Waves</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel Decorative">
+  <link rel="stylesheet" href="custom2.css">
+</head>
+<body class="bg-dark text-white" onload="document.body.style.opacity='1'">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand mx-3" href="#">Calm Waves</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+			<a href="https://www.youtube.com/channel/UCaeY1pN-7sIUSjpwr_v_-1w" target="_blank" class="nav-link"><i class="fa fa-youtube-play" ></i></a>
+        </li>
+        <li class="nav-item">
+			<a href="https://www.instagram.com/nature_listener/" target="_blank" class="nav-link"><i class="fa fa-instagram" ></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sidebar -->
+<div class="offcanvas offcanvas-start bg-secondary" id="offcanvas" style="width:50%">
+  <div class="offcanvas-header position-relative">
+	<button type="button" class="btn-close position-absolute top-0 end-0 p-2 m-2 box" data-bs-dismiss="offcanvas"></button>
+	<img src="img/logo.png" style="width:100%" alt="Avatar" class="rounded-circle mt-3">
+  </div>
+  <div class="offcanvas-body text-center">
+	<h2 class="offcanvas-title">Calm Waves</h2>
+	<div class="list-group mt-1" data-bs-dismiss="offcanvas">
+		<a href="#home" class="list-group-item list-group-item-action bg-info box"><i class="fa fa-home mx-2"></i>Home</a>
+		<a href="#video" class="list-group-item list-group-item-action bg-info box"><i class="fa fa-play-circle mx-2"></i>Video</a>
+		<a href="#photo" class="list-group-item list-group-item-action bg-info box"><i class="fa fa-photo mx-2"></i>Photo</a>
+		<a href="#get" class="list-group-item list-group-item-action bg-info box"><i class="fa fa-shopping-cart mx-2"></i>Get it</a>
+	</div>
+  </div>
+</div>
+
+
+<!-- Home -->
+<div class="container-fluid mt-5 p-4 position-relative" id="home">
+	<img src="img/ocean.jpg" style="width:100%;height:500px" alt="ocean" class="rounded">
+	<div class="position-absolute top-50 start-50 translate-middle" style="text-shadow:2px 2px 10px yellow;">a puzzle game</div>
+</div>
+
+
+<!-- About -->
+<div class="container mt-5 p-4 text-center">
+	<p>The objective is to fill a 9 × 9 grid with digits so that each column, each row,
+	and each of the nine 3 × 3 subgrids that compose the grid contain all of the digits from 1 to 9.
+	The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.</p>
+</div>
+
+<div class="container-fluid mt-5 p-4">
+	<div class="row text-center">
+		<div class="col-sm-6 ">
+			<p><i class="fa fa-check-square-o mx-2 text-success"></i><b>Solve many sudoku puzzles</b></p>
+			<p><i class="fa fa-check-square-o mx-2 text-success"></i><b>Test your puzzle skills</b></p>
+		</div>
+		<div class="col-sm-6 " >
+			<p><i class="fa fa-check-square-o mx-2 text-success"></i><b>Exercise your brain</b></p>
+			<p><i class="fa fa-check-square-o mx-2 text-success"></i><b>Calm ingame music</b></p>
+		</div>
+	</div>
+</div>
+
+
+<!--Video -->
+<div class="container-fluid mt-5 p-4" id="video">
+	<iframe width="100%" height="400" src="https://www.youtube.com/embed/AQvztY-0zd8"></iframe>
+</div>
+
+<!-- Photo -->
+<div class="container-fluid mt-5 p-4" id="photo">
+	<div class="row gx-3 text-center">
+		<div class="col-sm-6">
+			<div class="p-3 bg-success rounded mb-3 box">
+				<img src="img/1.png" style="width:100%" alt="Start Scene">
+				<p class="m-3">Start Scene</p>
+			</div>
+			<div class="p-3 bg-success rounded mb-3 box" >
+				<img src="img/2.png" style="width:100%" alt="Difficulties">
+				<p class="m-3">Difficulties</p>
+			</div>
+			<div class="p-3 bg-success rounded mb-3 box">
+				<img src="img/3.png" style="width:100%" alt="How to Play">
+				<p class="m-3">How to Play</p>
+			</div>
+		</div>
+		<div class="col-sm-6 ">
+			<div class="p-3 bg-success rounded mb-3 box">
+				<img src="img/4.png" style="width:100%" alt="Day Mode">
+				<p class="m-3">Day Mode</p>
+			</div>
+			<div class="p-3 bg-success rounded mb-3 box">
+				<img src="img/5.png" style="width:100%" alt="Night Mode">
+				<p class="m-3">Night Mode</p>
+			</div>
+			<div class="p-3 bg-success rounded mb-3 box">
+				<img src="img/6.png" style="width:100%" alt="Save and Continue">
+				<p class="m-3">Save and Continue</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Get it -->
+<div class="container-fluid mt-5 p-4" id="get">
+	<h3 class="text-center text-info" style="text-shadow: 2px 2px blue;">Might be Available at</h3><br>
+	<div class="row gx-3 ">
+		<div class="col-sm-6 mb-5">
+			<img src="img/steam.jpg" class="rounded" style="width:100%">
+		</div>
+		<div class="col-sm-6 mb-5">
+			<img src="img/epic.png" class="rounded" style="width:100%">
+		</div>
+	</div>
+	<a href="#" target="_blank"><p class="p-3 text-center border">Get it on Google Play</p></a>
+</div>
+
+<footer class="container-fluid p-4">
+	<p class="p-4 text-center text-dark bg-info">Contact : faksper@gmail.com</p>
+</footer>
+
+</body>
+</html>
