@@ -1,4 +1,4 @@
-body {font-family: "Cinzel Decorative", sans-serif; opacity: 0;transition: opacity 3s;}
+body {font-family: "Cinzel Decorative", sans-serif;}
 .box {transition: box-shadow .3s;}
 .box:hover {box-shadow: 1px 1px 10px 1px aqua;}
 html {scroll-padding-top: 4rem;}
