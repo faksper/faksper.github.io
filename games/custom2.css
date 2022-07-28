@@ -2,3 +2,14 @@ body {font-family: "Cinzel Decorative", sans-serif;}
 .box {transition: box-shadow .3s;}
 .box:hover {box-shadow: 1px 1px 10px 1px aqua;}
 html {scroll-padding-top: 4rem;}
+.reveal{
+	position: relative;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 2s ease;
+}
+
+.reveal.active{
+	transform: translate(0px);
+	opacity: 1; 
+}

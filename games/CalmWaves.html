@@ -64,7 +64,7 @@
 	The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution.</p>
 </div>
 
-<div class="container-fluid mt-5 p-4">
+<div class="container-fluid mt-5 p-4 reveal">
 	<div class="row text-center">
 		<div class="col-sm-6 ">
 			<p><i class="fa fa-check-square-o mx-2 text-success"></i><b>Solve many sudoku puzzles</b></p>
@@ -80,11 +80,11 @@
 
 <!--Video -->
 <div class="container-fluid mt-5 p-4" id="video">
-	<iframe width="100%" height="400" src="https://www.youtube.com/embed/AQvztY-0zd8"></iframe>
+	<iframe width="100%" height="500" src="https://www.youtube.com/embed/MtOc6MNTrQU"></iframe>
 </div>
 
 <!-- Photo -->
-<div class="container-fluid mt-5 p-4" id="photo">
+<div class="container-fluid mt-5 p-4 reveal" id="photo">
 	<div class="row gx-3 text-center">
 		<div class="col-sm-6">
 			<div class="p-3 bg-success rounded mb-3 box">
@@ -135,6 +135,28 @@
 <footer class="container-fluid p-4">
 	<p class="p-4 text-center text-dark bg-info">Contact : faksper@gmail.com</p>
 </footer>
+
+<script type="text/javascript">
+	window.addEventListener('scroll', reveal);
+	
+	function reveal(){
+		var reveals = document.querySelectorAll('.reveal');
+		
+		for(var i = 0; i < reveals.length; i++){
+		
+			var windowheight = window.innerHeight;
+			var revealtop = reveals[i].getBoundingClientRect().top;
+			var revealpoint = 150;
+
+			if(revealtop < windowheight - revealpoint){
+				reveals[i].classList.add('active');
+			}
+			else{
+				reveals[i].classList.remove('active');
+			}		
+		}
+	}
+</script>
 
 </body>
 </html>
