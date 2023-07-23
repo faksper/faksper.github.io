@@ -1,0 +1,27 @@
+body{
+	font-family: Playfair , sans-serif;color: rgb(250,250,250); background-color:#96cdce; font-size:18px;
+}
+
+nav{
+	background-color:#6084b5; box-shadow: 2px 2px 4px #efedbf;
+}
+
+.carousel-item img{
+	max-width:100%; height:500px;object-fit: contain;margin:auto
+}
+
+.gameinfo{
+	background-color:#0aa0aa;
+}
+
+hr{
+	height:9px;margin:49px 0 49px 0;border-width:0;background-color:#efedbf;
+}
+
+footer{
+	height:100px;background-color:#cdd5cb;color:#0aa0aa;border-top: 4px dotted #0aa0aa;
+}
+
+footer p{
+	background-color:#cdd5cb;color:#0aa0aa;
+}
